@@ -1,0 +1,47 @@
+- id: 16794
+  en: >-
+    Xion! Wait up!
+  fr: >-
+    Xion ! Attends-moi !
+  gr: >-
+    Xion! Warte!
+  it: >-
+    Xion! Aspetta!
+  sp: >-
+    ¡Xion! ¡Espera!
+- id: 16810
+  en: >-
+    Xion...?
+  fr: >-
+    Xion ?
+  gr: >-
+    Xion ...?
+  it: >-
+    Xion?
+  sp: >-
+    ¿Xion...?
+- id: 16824
+  en: >-
+    We´ve got something in common, Xion.{:delay AF 00}{:clear }You and I both miss someone we care about.{:delay ED 00}{:clear }Hey...I feel like we´re friends already.
+  fr: >-
+    Toi et moi, on est pareils, Xion.{:delay 8A 00}{:clear }  {:delay 2A 00}{:clear }Nous avons tous les deux perdu
+
+    quelqu'un d'important.{:delay A2 00}{:clear }  {:delay 3C 00}{:clear }Hé...{:delay 24 00}{:clear }  {:delay 18 00}{:clear }J'ai l'impression qu'on est déjà amis.
+  gr: >-
+    Wir haben was gemeinsam, Xion.{:delay A0 00}{:clear }Wir beide vermissen jemanden,
+
+    den wir sehr mögen.{:delay DC 00}{:clear }Hey, ich hab glatt das Gefühl,
+
+    als seien wir Freunde.
+  it: >-
+    Abbiamo qualcosa
+
+    in comune, Xion.{:delay AF 00}{:clear }A entrambi manca
+
+    qualcuno che ci è caro.{:delay ED 00}{:clear }Ehi, mi sembra già di essere amici.
+  sp: >-
+    Tenemos algo en común, Xion. {:delay AF 00}{:clear }Tú y yo echamos de menos
+
+    a alguien que nos importa. {:delay ED 00}{:clear }¡Eh! Siento como si
+
+    ya fuéramos amigos.

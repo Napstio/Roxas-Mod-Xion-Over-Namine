@@ -2,8 +2,6 @@ title: Roxas_Mod_Xion_Over_Naminé
 originalAuthor: Tieulink, Napstio, Mikote, Soraiko, Gemini
 description: Replace Kairi with Xion instead of Naminé (needs Roxas_Mod_3.0 to work)
 game: kh2
-specifications: 0
-dependencies: 
 assets:
 - name: bgm\music091.win32.scd
   method: copy
@@ -12,839 +10,393 @@ assets:
   multi: 
   source:
   - name: bgm\music091.win32.scd
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\di.bar
-  method: copy
+  #start new
+- name: msg/us/di.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\di.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\eh.bar
-  method: copy
+  - name: di
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/di.yml
+      language: en
+- name: msg/sp/di.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\eh.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\hb.bar
-  method: copy
+  - name: di
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/di.yml
+      language: sp
+- name: msg/it/di.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\hb.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\jm.bar
-  method: copy
+  - name: di
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/di.yml
+      language: it
+- name: msg/gr/di.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\jm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\nm.bar
-  method: copy
+  - name: di
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/di.yml
+      language: gr
+- name: msg/fr/di.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\nm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\tr.bar
-  method: copy
+  - name: di
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/di.yml
+      language: fr
+- name: msg/us/eh.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\tr.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\wm.bar
-  method: copy
+  - name: eh
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/eh.yml
+      language: en
+- name: msg/sp/eh.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\wm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\di.bar
-  method: copy
+  - name: eh
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/eh.yml
+      language: sp
+- name: msg/it/eh.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\di.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\eh.bar
-  method: copy
+  - name: eh
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/eh.yml
+      language: it
+- name: msg/gr/eh.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\eh.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\hb.bar
-  method: copy
+  - name: eh
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/eh.yml
+      language: gr
+- name: msg/fr/eh.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\hb.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\jm.bar
-  method: copy
+  - name: eh
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/eh.yml
+      language: fr
+- name: msg/us/hb.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\jm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\nm.bar
-  method: copy
+  - name: hb
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/hb.yml
+      language: en
+- name: msg/sp/hb.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\nm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\tr.bar
-  method: copy
+  - name: hb
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/hb.yml
+      language: sp
+- name: msg/it/hb.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\tr.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\wm.bar
-  method: copy
+  - name: hb
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/hb.yml
+      language: it
+- name: msg/gr/hb.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\wm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\di.bar
-  method: copy
+  - name: hb
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/hb.yml
+      language: gr
+- name: msg/fr/hb.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\di.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\eh.bar
-  method: copy
+  - name: hb
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/hb.yml
+      language: fr
+- name: msg/us/jm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\eh.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\hb.bar
-  method: copy
+  - name: jm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/jm.yml
+      language: en
+- name: msg/sp/jm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\hb.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\jm.bar
-  method: copy
+  - name: jm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/jm.yml
+      language: sp
+- name: msg/it/jm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\jm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\nm.bar
-  method: copy
+  - name: jm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/jm.yml
+      language: it
+- name: msg/gr/jm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\nm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\tr.bar
-  method: copy
+  - name: jm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/jm.yml
+      language: gr
+- name: msg/fr/jm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\tr.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\wm.bar
-  method: copy
+  - name: jm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/jm.yml
+      language: fr
+- name: msg/us/nm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\wm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\di.bar
-  method: copy
+  - name: nm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/nm.yml
+      language: en
+- name: msg/sp/nm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\di.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\eh.bar
-  method: copy
+  - name: nm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/nm.yml
+      language: sp
+- name: msg/it/nm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\eh.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\hb.bar
-  method: copy
+  - name: nm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/nm.yml
+      language: it
+- name: msg/gr/nm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\hb.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\nm.bar
-  method: copy
+  - name: nm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/nm.yml
+      language: gr
+- name: msg/fr/nm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\nm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\tr.bar
-  method: copy
+  - name: nm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/nm.yml
+      language: fr
+- name: msg/us/tr.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\tr.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\wm.bar
-  method: copy
+  - name: tr
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tr.yml
+      language: en
+- name: msg/sp/tr.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\wm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\di.bar
-  method: copy
+  - name: tr
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tr.yml
+      language: sp
+- name: msg/it/tr.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\di.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\eh.bar
-  method: copy
+  - name: tr
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tr.yml
+      language: it
+- name: msg/gr/tr.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\eh.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\hb.bar
-  method: copy
+  - name: tr
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tr.yml
+      language: gr
+- name: msg/fr/tr.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\hb.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\jm.bar
-  method: copy
+  - name: tr
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tr.yml
+      language: fr
+- name: msg/us/wm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\jm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\nm.bar
-  method: copy
+  - name: wm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/wm.yml
+      language: en
+- name: msg/sp/wm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\nm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\tr.bar
-  method: copy
+  - name: wm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/wm.yml
+      language: sp
+- name: msg/it/wm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\tr.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\wm.bar
-  method: copy
+  - name: wm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/wm.yml
+      language: it
+- name: msg/gr/wm.bar
   platform: pc
   package: kh2_fifth
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\wm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
+  - name: wm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/wm.yml
+      language: gr
+- name: msg/fr/wm.bar
+  platform: pc
+  package: kh2_fifth
+  method: binarc
+  source:
+  - name: wm
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/wm.yml
+      language: fr
+#end new
 - name: obj\F_CM520.mdlx
   method: copy
   platform: pc
@@ -852,23 +404,6 @@ assets:
   multi: 
   source:
   - name: obj\F_CM520.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\F_EH510.mdlx
   method: copy
   platform: pc
@@ -876,23 +411,6 @@ assets:
   multi: 
   source:
   - name: obj\F_EH510.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\H_CM080.mdlx
   method: copy
   platform: pc
@@ -900,23 +418,6 @@ assets:
   multi: 
   source:
   - name: obj\H_CM080.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\H_EX550.mdlx
   method: copy
   platform: pc
@@ -924,23 +425,6 @@ assets:
   multi: 
   source:
   - name: obj\H_EX550.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\H_EX700.mdlx
   method: copy
   platform: pc
@@ -948,23 +432,6 @@ assets:
   multi: 
   source:
   - name: obj\H_EX700.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\N_EX550.mdlx
   method: copy
   platform: pc
@@ -972,23 +439,6 @@ assets:
   multi: 
   source:
   - name: obj\N_EX550.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\N_EX560.mdlx
   method: copy
   platform: pc
@@ -996,23 +446,6 @@ assets:
   multi: 
   source:
   - name: obj\N_EX560.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: obj\N_EX560_RTN.mdlx
   method: copy
   platform: pc
@@ -1020,23 +453,6 @@ assets:
   multi: 
   source:
   - name: obj\N_EX560_RTN.mdlx
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\itempic\item-242.imd\-0.dds
   method: copy
   platform: pc
@@ -1044,23 +460,6 @@ assets:
   multi: 
   source:
   - name: remastered\itempic\item-242.imd\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\ending.2ld\FR_ending_2ld2.png
   method: copy
   platform: pc
@@ -1068,23 +467,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\ending.2ld\FR_ending_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\ending.2ld\FR_ending_2ld3.png
   method: copy
   platform: pc
@@ -1092,23 +474,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\ending.2ld\FR_ending_2ld3.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\ending.2ld\FR_ending_2ld4.png
   method: copy
   platform: pc
@@ -1116,23 +481,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\ending.2ld\FR_ending_2ld4.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\ending.2ld\FR_ending_2ld5.png
   method: copy
   platform: pc
@@ -1140,23 +488,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\ending.2ld\FR_ending_2ld5.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\ending.2ld\FR_ending_2ld6.png
   method: copy
   platform: pc
@@ -1164,23 +495,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\ending.2ld\FR_ending_2ld6.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\ending.2ld\FR_ending_2ld7.png
   method: copy
   platform: pc
@@ -1188,23 +502,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\ending.2ld\FR_ending_2ld7.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\jm_photo\eh12.bin\FR_eh12_bin0.dds
   method: copy
   platform: pc
@@ -1212,23 +509,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\jm_photo\eh12.bin\FR_eh12_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\jm_photo\eh14.bin\FR_eh14_bin0.dds
   method: copy
   platform: pc
@@ -1236,23 +516,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\jm_photo\eh14.bin\FR_eh14_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\jm_photo\tt31.bin\FR_tt31_bin0.dds
   method: copy
   platform: pc
@@ -1260,23 +523,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\jm_photo\tt31.bin\FR_tt31_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\ending.2ld\GR_ending_2ld2.png
   method: copy
   platform: pc
@@ -1284,23 +530,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\ending.2ld\GR_ending_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\ending.2ld\GR_ending_2ld3.png
   method: copy
   platform: pc
@@ -1308,23 +537,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\ending.2ld\GR_ending_2ld3.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\ending.2ld\GR_ending_2ld4.png
   method: copy
   platform: pc
@@ -1332,23 +544,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\ending.2ld\GR_ending_2ld4.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\ending.2ld\GR_ending_2ld5.png
   method: copy
   platform: pc
@@ -1356,23 +551,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\ending.2ld\GR_ending_2ld5.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\ending.2ld\GR_ending_2ld6.png
   method: copy
   platform: pc
@@ -1380,23 +558,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\ending.2ld\GR_ending_2ld6.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\ending.2ld\GR_ending_2ld7.png
   method: copy
   platform: pc
@@ -1404,23 +565,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\ending.2ld\GR_ending_2ld7.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\jm_photo\eh12.bin\GR_eh12_bin0.dds
   method: copy
   platform: pc
@@ -1428,23 +572,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\jm_photo\eh12.bin\GR_eh12_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\jm_photo\eh14.bin\GR_eh14_bin0.dds
   method: copy
   platform: pc
@@ -1452,23 +579,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\jm_photo\eh14.bin\GR_eh14_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\jm_photo\tt31.bin\GR_tt31_bin0.dds
   method: copy
   platform: pc
@@ -1476,23 +586,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\jm_photo\tt31.bin\GR_tt31_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\ending.2ld\IT_ending_2ld2.png
   method: copy
   platform: pc
@@ -1500,23 +593,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\ending.2ld\IT_ending_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\ending.2ld\IT_ending_2ld3.png
   method: copy
   platform: pc
@@ -1524,23 +600,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\ending.2ld\IT_ending_2ld3.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\ending.2ld\IT_ending_2ld4.png
   method: copy
   platform: pc
@@ -1548,23 +607,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\ending.2ld\IT_ending_2ld4.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\ending.2ld\IT_ending_2ld5.png
   method: copy
   platform: pc
@@ -1572,23 +614,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\ending.2ld\IT_ending_2ld5.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\ending.2ld\IT_ending_2ld6.png
   method: copy
   platform: pc
@@ -1596,23 +621,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\ending.2ld\IT_ending_2ld6.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\ending.2ld\IT_ending_2ld7.png
   method: copy
   platform: pc
@@ -1620,23 +628,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\ending.2ld\IT_ending_2ld7.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\jm_photo\eh12.bin\IT_eh12_bin0.dds
   method: copy
   platform: pc
@@ -1644,23 +635,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\jm_photo\eh12.bin\IT_eh12_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\jm_photo\eh14.bin\IT_eh14_bin0.dds
   method: copy
   platform: pc
@@ -1668,23 +642,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\jm_photo\eh14.bin\IT_eh14_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\jm_photo\tt31.bin\IT_tt31_bin0.dds
   method: copy
   platform: pc
@@ -1692,23 +649,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\jm_photo\tt31.bin\IT_tt31_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\jmface_ex.2ld\-4.dds
   method: copy
   platform: pc
@@ -1716,23 +656,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\jmface_ex.2ld\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\jmface_ex.2ld\-5.dds
   method: copy
   platform: pc
@@ -1740,23 +663,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\jmface_ex.2ld\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\jmface_ex4.imd\-0.dds
   method: copy
   platform: pc
@@ -1764,23 +670,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\jmface_ex4.imd\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\jmface_ex5.imd\-0.dds
   method: copy
   platform: pc
@@ -1788,23 +677,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\jmface_ex5.imd\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\ending.2ld\SP_ending_2ld2.png
   method: copy
   platform: pc
@@ -1812,23 +684,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\ending.2ld\SP_ending_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\ending.2ld\SP_ending_2ld3.png
   method: copy
   platform: pc
@@ -1836,23 +691,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\ending.2ld\SP_ending_2ld3.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\ending.2ld\SP_ending_2ld4.png
   method: copy
   platform: pc
@@ -1860,23 +698,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\ending.2ld\SP_ending_2ld4.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\ending.2ld\SP_ending_2ld5.png
   method: copy
   platform: pc
@@ -1884,23 +705,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\ending.2ld\SP_ending_2ld5.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\ending.2ld\SP_ending_2ld6.png
   method: copy
   platform: pc
@@ -1908,23 +712,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\ending.2ld\SP_ending_2ld6.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\ending.2ld\SP_ending_2ld7.png
   method: copy
   platform: pc
@@ -1932,23 +719,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\ending.2ld\SP_ending_2ld7.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\jm_photo\eh12.bin\SP_eh12_bin0.dds
   method: copy
   platform: pc
@@ -1956,23 +726,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\jm_photo\eh12.bin\SP_eh12_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\jm_photo\eh14.bin\SP_eh14_bin0.dds
   method: copy
   platform: pc
@@ -1980,23 +733,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\jm_photo\eh14.bin\SP_eh14_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\jm_photo\tt31.bin\SP_tt31_bin0.dds
   method: copy
   platform: pc
@@ -2004,23 +740,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\jm_photo\tt31.bin\SP_tt31_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\ending.2ld\US_ending_2ld2.png
   method: copy
   platform: pc
@@ -2028,23 +747,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\ending.2ld\US_ending_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\ending.2ld\US_ending_2ld3.png
   method: copy
   platform: pc
@@ -2052,23 +754,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\ending.2ld\US_ending_2ld3.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\ending.2ld\US_ending_2ld4.png
   method: copy
   platform: pc
@@ -2076,23 +761,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\ending.2ld\US_ending_2ld4.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\ending.2ld\US_ending_2ld5.png
   method: copy
   platform: pc
@@ -2100,23 +768,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\ending.2ld\US_ending_2ld5.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\ending.2ld\US_ending_2ld6.png
   method: copy
   platform: pc
@@ -2124,23 +775,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\ending.2ld\US_ending_2ld6.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\ending.2ld\US_ending_2ld7.png
   method: copy
   platform: pc
@@ -2148,23 +782,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\ending.2ld\US_ending_2ld7.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\jm_photo\eh12.bin\US_eh12_bin0.dds
   method: copy
   platform: pc
@@ -2172,23 +789,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\jm_photo\eh12.bin\US_eh12_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\jm_photo\eh14.bin\US_eh14_bin0.dds
   method: copy
   platform: pc
@@ -2196,23 +796,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\jm_photo\eh14.bin\US_eh14_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\jm_photo\tt31.bin\US_tt31_bin0.dds
   method: copy
   platform: pc
@@ -2220,23 +803,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\jm_photo\tt31.bin\US_tt31_bin0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\al.bar\FR_al_bar0.png
   method: copy
   platform: pc
@@ -2244,23 +810,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\al.bar\FR_al_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\bb.bar\FR_bb_bar0.png
   method: copy
   platform: pc
@@ -2268,23 +817,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\bb.bar\FR_bb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\ca.bar\FR_ca_bar0.png
   method: copy
   platform: pc
@@ -2292,23 +824,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\ca.bar\FR_ca_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\dc.bar\FR_dc_bar0.png
   method: copy
   platform: pc
@@ -2316,23 +831,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\dc.bar\FR_dc_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\di.bar\FR_di_bar0.png
   method: copy
   platform: pc
@@ -2340,23 +838,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\di.bar\FR_di_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\eh.bar\FR_eh_bar0.png
   method: copy
   platform: pc
@@ -2364,23 +845,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\eh.bar\FR_eh_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\hb.bar\FR_hb_bar0.png
   method: copy
   platform: pc
@@ -2388,23 +852,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\hb.bar\FR_hb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\he.bar\FR_he_bar0.png
   method: copy
   platform: pc
@@ -2412,23 +859,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\he.bar\FR_he_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\lk.bar\FR_lk_bar0.png
   method: copy
   platform: pc
@@ -2436,23 +866,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\lk.bar\FR_lk_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\lm.bar\FR_lm_bar0.png
   method: copy
   platform: pc
@@ -2460,23 +873,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\lm.bar\FR_lm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\mu.bar\FR_mu_bar0.png
   method: copy
   platform: pc
@@ -2484,23 +880,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\mu.bar\FR_mu_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\nm.bar\FR_nm_bar0.png
   method: copy
   platform: pc
@@ -2508,23 +887,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\nm.bar\FR_nm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\po.bar\FR_po_bar0.png
   method: copy
   platform: pc
@@ -2532,23 +894,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\po.bar\FR_po_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\tr.bar\FR_tr_bar0.png
   method: copy
   platform: pc
@@ -2556,23 +901,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\tr.bar\FR_tr_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\wi.bar\FR_wi_bar0.png
   method: copy
   platform: pc
@@ -2580,23 +908,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\wi.bar\FR_wi_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\wm.bar\FR_wm_bar0.png
   method: copy
   platform: pc
@@ -2604,23 +915,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\wm.bar\FR_wm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\al.bar\GR_al_bar0.png
   method: copy
   platform: pc
@@ -2628,23 +922,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\al.bar\GR_al_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\bb.bar\GR_bb_bar0.png
   method: copy
   platform: pc
@@ -2652,23 +929,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\bb.bar\GR_bb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\ca.bar\GR_ca_bar0.png
   method: copy
   platform: pc
@@ -2676,23 +936,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\ca.bar\GR_ca_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\dc.bar\GR_dc_bar0.png
   method: copy
   platform: pc
@@ -2700,23 +943,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\dc.bar\GR_dc_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\di.bar\GR_di_bar0.png
   method: copy
   platform: pc
@@ -2724,23 +950,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\di.bar\GR_di_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\eh.bar\GR_eh_bar0.png
   method: copy
   platform: pc
@@ -2748,23 +957,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\eh.bar\GR_eh_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\hb.bar\GR_hb_bar0.png
   method: copy
   platform: pc
@@ -2772,23 +964,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\hb.bar\GR_hb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\he.bar\GR_he_bar0.png
   method: copy
   platform: pc
@@ -2796,23 +971,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\he.bar\GR_he_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\lk.bar\GR_lk_bar0.png
   method: copy
   platform: pc
@@ -2820,23 +978,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\lk.bar\GR_lk_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\lm.bar\GR_lm_bar0.png
   method: copy
   platform: pc
@@ -2844,23 +985,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\lm.bar\GR_lm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\mu.bar\GR_mu_bar0.png
   method: copy
   platform: pc
@@ -2868,23 +992,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\mu.bar\GR_mu_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\nm.bar\GR_nm_bar0.png
   method: copy
   platform: pc
@@ -2892,23 +999,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\nm.bar\GR_nm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\po.bar\GR_po_bar0.png
   method: copy
   platform: pc
@@ -2916,23 +1006,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\po.bar\GR_po_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\tr.bar\GR_tr_bar0.png
   method: copy
   platform: pc
@@ -2940,23 +1013,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\tr.bar\GR_tr_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\wi.bar\GR_wi_bar0.png
   method: copy
   platform: pc
@@ -2964,23 +1020,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\wi.bar\GR_wi_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\wm.bar\GR_wm_bar0.png
   method: copy
   platform: pc
@@ -2988,23 +1027,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\wm.bar\GR_wm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\al.bar\IT_al_bar0.png
   method: copy
   platform: pc
@@ -3012,23 +1034,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\al.bar\IT_al_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\bb.bar\IT_bb_bar0.png
   method: copy
   platform: pc
@@ -3036,23 +1041,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\bb.bar\IT_bb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\ca.bar\IT_ca_bar0.png
   method: copy
   platform: pc
@@ -3060,23 +1048,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\ca.bar\IT_ca_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\dc.bar\IT_dc_bar0.png
   method: copy
   platform: pc
@@ -3084,23 +1055,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\dc.bar\IT_dc_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\di.bar\IT_di_bar0.png
   method: copy
   platform: pc
@@ -3108,23 +1062,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\di.bar\IT_di_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\eh.bar\IT_eh_bar0.png
   method: copy
   platform: pc
@@ -3132,23 +1069,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\eh.bar\IT_eh_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\hb.bar\IT_hb_bar0.png
   method: copy
   platform: pc
@@ -3156,23 +1076,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\hb.bar\IT_hb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\he.bar\IT_he_bar0.png
   method: copy
   platform: pc
@@ -3180,23 +1083,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\he.bar\IT_he_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\lk.bar\IT_lk_bar0.png
   method: copy
   platform: pc
@@ -3204,23 +1090,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\lk.bar\IT_lk_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\lm.bar\IT_lm_bar0.png
   method: copy
   platform: pc
@@ -3228,23 +1097,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\lm.bar\IT_lm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\mu.bar\IT_mu_bar0.png
   method: copy
   platform: pc
@@ -3252,23 +1104,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\mu.bar\IT_mu_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\nm.bar\IT_nm_bar0.png
   method: copy
   platform: pc
@@ -3276,23 +1111,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\nm.bar\IT_nm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\po.bar\IT_po_bar0.png
   method: copy
   platform: pc
@@ -3300,23 +1118,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\po.bar\IT_po_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\tr.bar\IT_tr_bar0.png
   method: copy
   platform: pc
@@ -3324,23 +1125,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\tr.bar\IT_tr_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\wi.bar\IT_wi_bar0.png
   method: copy
   platform: pc
@@ -3348,23 +1132,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\wi.bar\IT_wi_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\wm.bar\IT_wm_bar0.png
   method: copy
   platform: pc
@@ -3372,23 +1139,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\wm.bar\IT_wm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\al.bar\SP_al_bar0.png
   method: copy
   platform: pc
@@ -3396,23 +1146,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\al.bar\SP_al_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\bb.bar\SP_bb_bar0.png
   method: copy
   platform: pc
@@ -3420,23 +1153,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\bb.bar\SP_bb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\ca.bar\SP_ca_bar0.png
   method: copy
   platform: pc
@@ -3444,23 +1160,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\ca.bar\SP_ca_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\dc.bar\SP_dc_bar0.png
   method: copy
   platform: pc
@@ -3468,23 +1167,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\dc.bar\SP_dc_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\di.bar\SP_di_bar0.png
   method: copy
   platform: pc
@@ -3492,23 +1174,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\di.bar\SP_di_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\eh.bar\SP_eh_bar0.png
   method: copy
   platform: pc
@@ -3516,23 +1181,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\eh.bar\SP_eh_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\hb.bar\SP_hb_bar0.png
   method: copy
   platform: pc
@@ -3540,23 +1188,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\hb.bar\SP_hb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\he.bar\SP_he_bar0.png
   method: copy
   platform: pc
@@ -3564,23 +1195,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\he.bar\SP_he_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\lk.bar\SP_lk_bar0.png
   method: copy
   platform: pc
@@ -3588,23 +1202,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\lk.bar\SP_lk_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\lm.bar\SP_lm_bar0.png
   method: copy
   platform: pc
@@ -3612,23 +1209,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\lm.bar\SP_lm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\mu.bar\SP_mu_bar0.png
   method: copy
   platform: pc
@@ -3636,23 +1216,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\mu.bar\SP_mu_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\nm.bar\SP_nm_bar0.png
   method: copy
   platform: pc
@@ -3660,23 +1223,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\nm.bar\SP_nm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\po.bar\SP_po_bar0.png
   method: copy
   platform: pc
@@ -3684,23 +1230,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\po.bar\SP_po_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\tr.bar\SP_tr_bar0.png
   method: copy
   platform: pc
@@ -3708,23 +1237,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\tr.bar\SP_tr_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\wi.bar\SP_wi_bar0.png
   method: copy
   platform: pc
@@ -3732,23 +1244,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\wi.bar\SP_wi_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\wm.bar\SP_wm_bar0.png
   method: copy
   platform: pc
@@ -3756,23 +1251,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\wm.bar\SP_wm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\al.bar\US_al_bar0.png
   method: copy
   platform: pc
@@ -3780,23 +1258,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\al.bar\US_al_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\bb.bar\US_bb_bar0.png
   method: copy
   platform: pc
@@ -3804,23 +1265,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\bb.bar\US_bb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\ca.bar\US_ca_bar0.png
   method: copy
   platform: pc
@@ -3828,23 +1272,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\ca.bar\US_ca_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\dc.bar\US_dc_bar0.png
   method: copy
   platform: pc
@@ -3852,23 +1279,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\dc.bar\US_dc_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\di.bar\US_di_bar0.png
   method: copy
   platform: pc
@@ -3876,23 +1286,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\di.bar\US_di_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\eh.bar\US_eh_bar0.png
   method: copy
   platform: pc
@@ -3900,23 +1293,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\eh.bar\US_eh_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\hb.bar\US_hb_bar0.png
   method: copy
   platform: pc
@@ -3924,23 +1300,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\hb.bar\US_hb_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\he.bar\US_he_bar0.png
   method: copy
   platform: pc
@@ -3948,23 +1307,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\he.bar\US_he_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\lk.bar\US_lk_bar0.png
   method: copy
   platform: pc
@@ -3972,23 +1314,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\lk.bar\US_lk_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\lm.bar\US_lm_bar0.png
   method: copy
   platform: pc
@@ -3996,23 +1321,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\lm.bar\US_lm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\mu.bar\US_mu_bar0.png
   method: copy
   platform: pc
@@ -4020,23 +1328,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\mu.bar\US_mu_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\nm.bar\US_nm_bar0.png
   method: copy
   platform: pc
@@ -4044,23 +1335,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\nm.bar\US_nm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\po.bar\US_po_bar0.png
   method: copy
   platform: pc
@@ -4068,23 +1342,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\po.bar\US_po_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\tr.bar\US_tr_bar0.png
   method: copy
   platform: pc
@@ -4092,23 +1349,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\tr.bar\US_tr_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\wi.bar\US_wi_bar0.png
   method: copy
   platform: pc
@@ -4116,23 +1356,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\wi.bar\US_wi_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\wm.bar\US_wm_bar0.png
   method: copy
   platform: pc
@@ -4140,23 +1363,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\wm.bar\US_wm_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\F_CM520.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4164,23 +1370,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\F_CM520.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\F_EH510.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4188,23 +1377,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\F_EH510.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4212,23 +1384,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-1.dds
   method: copy
   platform: pc
@@ -4236,23 +1391,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-1.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-2.dds
   method: copy
   platform: pc
@@ -4260,23 +1398,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-2.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-3.dds
   method: copy
   platform: pc
@@ -4284,23 +1405,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-3.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-4.dds
   method: copy
   platform: pc
@@ -4308,23 +1412,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-5.dds
   method: copy
   platform: pc
@@ -4332,23 +1419,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_CM080.mdlx\-6.dds
   method: copy
   platform: pc
@@ -4356,23 +1426,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_CM080.mdlx\-6.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4380,23 +1433,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-1.dds
   method: copy
   platform: pc
@@ -4404,23 +1440,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-1.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-2.dds
   method: copy
   platform: pc
@@ -4428,23 +1447,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-2.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-3.dds
   method: copy
   platform: pc
@@ -4452,23 +1454,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-3.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-4.dds
   method: copy
   platform: pc
@@ -4476,23 +1461,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-5.dds
   method: copy
   platform: pc
@@ -4500,23 +1468,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX550.mdlx\-6.dds
   method: copy
   platform: pc
@@ -4524,23 +1475,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX550.mdlx\-6.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4548,23 +1482,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-1.dds
   method: copy
   platform: pc
@@ -4572,23 +1489,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-1.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-2.dds
   method: copy
   platform: pc
@@ -4596,23 +1496,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-2.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-3.dds
   method: copy
   platform: pc
@@ -4620,23 +1503,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-3.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-4.dds
   method: copy
   platform: pc
@@ -4644,23 +1510,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-5.dds
   method: copy
   platform: pc
@@ -4668,23 +1517,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-6.dds
   method: copy
   platform: pc
@@ -4692,23 +1524,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-6.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\H_EX700.mdlx\-7.dds
   method: copy
   platform: pc
@@ -4716,23 +1531,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\H_EX700.mdlx\-7.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4740,23 +1538,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-1.dds
   method: copy
   platform: pc
@@ -4764,23 +1545,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-1.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-2.dds
   method: copy
   platform: pc
@@ -4788,23 +1552,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-2.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-3.dds
   method: copy
   platform: pc
@@ -4812,23 +1559,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-3.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-4.dds
   method: copy
   platform: pc
@@ -4836,23 +1566,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-5.dds
   method: copy
   platform: pc
@@ -4860,23 +1573,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX550.mdlx\-6.dds
   method: copy
   platform: pc
@@ -4884,23 +1580,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX550.mdlx\-6.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-0.dds
   method: copy
   platform: pc
@@ -4908,23 +1587,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-1.dds
   method: copy
   platform: pc
@@ -4932,23 +1594,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-1.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-2.dds
   method: copy
   platform: pc
@@ -4956,23 +1601,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-2.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-3.dds
   method: copy
   platform: pc
@@ -4980,23 +1608,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-3.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-4.dds
   method: copy
   platform: pc
@@ -5004,23 +1615,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-5.dds
   method: copy
   platform: pc
@@ -5028,23 +1622,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-6.dds
   method: copy
   platform: pc
@@ -5052,23 +1629,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-6.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-7.dds
   method: copy
   platform: pc
@@ -5076,23 +1636,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-7.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560.mdlx\-8.dds
   method: copy
   platform: pc
@@ -5100,23 +1643,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560.mdlx\-8.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-0.dds
   method: copy
   platform: pc
@@ -5124,23 +1650,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-0.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-1.dds
   method: copy
   platform: pc
@@ -5148,23 +1657,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-1.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-2.dds
   method: copy
   platform: pc
@@ -5172,23 +1664,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-2.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-3.dds
   method: copy
   platform: pc
@@ -5196,23 +1671,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-3.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-4.dds
   method: copy
   platform: pc
@@ -5220,23 +1678,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-4.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-5.dds
   method: copy
   platform: pc
@@ -5244,23 +1685,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-5.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-6.dds
   method: copy
   platform: pc
@@ -5268,23 +1692,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-6.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-7.dds
   method: copy
   platform: pc
@@ -5292,23 +1699,6 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-7.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\obj\N_EX560_RTN.mdlx\-8.dds
   method: copy
   platform: pc
@@ -5316,527 +1706,228 @@ assets:
   multi: 
   source:
   - name: remastered\obj\N_EX560_RTN.mdlx\-8.dds
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\es.bar
-  method: copy
+#start new
+- name: msg/us/es.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\es.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\sys.bar
-  method: copy
+  - name: es
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/es.yml
+      language: en
+- name: msg/sp/es.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\sys.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\title.bar
-  method: copy
+  - name: es
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/es.yml
+      language: sp
+- name: msg/it/es.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\title.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\fr\tt.bar
-  method: copy
+  - name: es
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/es.yml
+      language: it
+- name: msg/gr/es.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\fr\tt.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\es.bar
-  method: copy
+  - name: es
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/es.yml
+      language: gr
+- name: msg/fr/es.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\es.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\sys.bar
-  method: copy
+  - name: es
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/es.yml
+      language: fr
+- name: msg/us/sys.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\sys.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\title.bar
-  method: copy
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: en
+- name: msg/sp/sys.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\title.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\gr\tt.bar
-  method: copy
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: sp
+- name: msg/it/sys.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\gr\tt.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\es.bar
-  method: copy
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: it
+- name: msg/gr/sys.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\es.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\sys.bar
-  method: copy
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: gr
+- name: msg/fr/sys.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\sys.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\title.bar
-  method: copy
+  - name: sys
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/sys.yml
+      language: fr
+- name: msg/us/title.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\title.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\it\tt.bar
-  method: copy
+  - name: titl
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/title.yml
+      language: en
+- name: msg/sp/title.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\it\tt.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\es.bar
-  method: copy
+  - name: titl
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/title.yml
+      language: sp
+- name: msg/it/title.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\es.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\jm.bar
-  method: copy
+  - name: titl
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/title.yml
+      language: it
+- name: msg/gr/title.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\jm.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\sys.bar
-  method: copy
+  - name: titl
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/title.yml
+      language: gr
+- name: msg/fr/title.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\sys.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\title.bar
-  method: copy
+  - name: titl
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/title.yml
+      language: fr
+- name: msg/us/tt.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\title.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\sp\tt.bar
-  method: copy
+  - name: tt
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tt.yml
+      language: en
+- name: msg/sp/tt.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\sp\tt.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\es.bar
-  method: copy
+  - name: tt
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tt.yml
+      language: sp
+- name: msg/it/tt.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\es.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\sys.bar
-  method: copy
+  - name: tt
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tt.yml
+      language: it
+- name: msg/gr/tt.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\sys.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\title.bar
-  method: copy
+  - name: tt
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tt.yml
+      language: gr
+- name: msg/fr/tt.bar
   platform: pc
   package: kh2_first
-  multi: 
+  method: binarc
   source:
-  - name: msg\us\title.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
-- name: msg\us\tt.bar
-  method: copy
-  platform: pc
-  package: kh2_first
-  multi: 
-  source:
-  - name: msg\us\tt.bar
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
+  - name: tt
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/tt.yml
+      language: fr
+#end new
 - name: remastered\menu\eventviewer.2ld\-31.png
   method: copy
   platform: pc
@@ -5844,23 +1935,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\eventviewer.2ld\-31.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\save.2ld\FR_save_2ld0.png
   method: copy
   platform: pc
@@ -5868,23 +1942,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\save.2ld\FR_save_2ld0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\save.2ld\FR_save_2ld1.png
   method: copy
   platform: pc
@@ -5892,23 +1949,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\save.2ld\FR_save_2ld1.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\fr\save.2ld\FR_save_2ld2.png
   method: copy
   platform: pc
@@ -5916,23 +1956,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\fr\save.2ld\FR_save_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\save.2ld\GR_save_2ld0.png
   method: copy
   platform: pc
@@ -5940,23 +1963,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\save.2ld\GR_save_2ld0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\save.2ld\GR_save_2ld1.png
   method: copy
   platform: pc
@@ -5964,23 +1970,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\save.2ld\GR_save_2ld1.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\gr\save.2ld\GR_save_2ld2.png
   method: copy
   platform: pc
@@ -5988,23 +1977,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\gr\save.2ld\GR_save_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\save.2ld\IT_save_2ld0.png
   method: copy
   platform: pc
@@ -6012,23 +1984,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\save.2ld\IT_save_2ld0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\save.2ld\IT_save_2ld1.png
   method: copy
   platform: pc
@@ -6036,23 +1991,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\save.2ld\IT_save_2ld1.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\it\save.2ld\IT_save_2ld2.png
   method: copy
   platform: pc
@@ -6060,23 +1998,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\it\save.2ld\IT_save_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\save.2ld\SP_save_2ld0.png
   method: copy
   platform: pc
@@ -6084,23 +2005,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\save.2ld\SP_save_2ld0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\save.2ld\SP_save_2ld1.png
   method: copy
   platform: pc
@@ -6108,23 +2012,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\save.2ld\SP_save_2ld1.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\sp\save.2ld\SP_save_2ld2.png
   method: copy
   platform: pc
@@ -6132,23 +2019,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\sp\save.2ld\SP_save_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\save.2ld\US_save_2ld0.png
   method: copy
   platform: pc
@@ -6156,23 +2026,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\save.2ld\US_save_2ld0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\save.2ld\US_save_2ld1.png
   method: copy
   platform: pc
@@ -6180,23 +2033,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\save.2ld\US_save_2ld1.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\menu\us\save.2ld\US_save_2ld2.png
   method: copy
   platform: pc
@@ -6204,23 +2040,6 @@ assets:
   multi: 
   source:
   - name: remastered\menu\us\save.2ld\US_save_2ld2.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\es.bar\FR_es_bar0.png
   method: copy
   platform: pc
@@ -6228,23 +2047,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\es.bar\FR_es_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\fr\tt.bar\FR_tt_bar0.png
   method: copy
   platform: pc
@@ -6252,23 +2054,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\fr\tt.bar\FR_tt_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\es.bar\GR_es_bar0.png
   method: copy
   platform: pc
@@ -6276,23 +2061,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\es.bar\GR_es_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\gr\tt.bar\GR_tt_bar0.png
   method: copy
   platform: pc
@@ -6300,23 +2068,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\gr\tt.bar\GR_tt_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\es.bar\IT_es_bar0.png
   method: copy
   platform: pc
@@ -6324,23 +2075,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\es.bar\IT_es_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\it\tt.bar\IT_tt_bar0.png
   method: copy
   platform: pc
@@ -6348,23 +2082,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\it\tt.bar\IT_tt_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\es.bar\SP_es_bar0.png
   method: copy
   platform: pc
@@ -6372,23 +2089,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\es.bar\SP_es_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\sp\tt.bar\SP_tt_bar0.png
   method: copy
   platform: pc
@@ -6396,23 +2096,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\sp\tt.bar\SP_tt_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\es.bar\US_es_bar0.png
   method: copy
   platform: pc
@@ -6420,23 +2103,6 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\es.bar\US_es_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0
 - name: remastered\msg\us\tt.bar\US_tt_bar0.png
   method: copy
   platform: pc
@@ -6444,20 +2110,3 @@ assets:
   multi: 
   source:
   - name: remastered\msg\us\tt.bar\US_tt_bar0.png
-    method: 
-    platform: 
-    package: 
-    multi: 
-    source: 
-    required: false
-    type: 
-    motionsetType: Default
-    language: 
-    isSwizzled: false
-    index: 0
-  required: false
-  type: 
-  motionsetType: Default
-  language: 
-  isSwizzled: false
-  index: 0

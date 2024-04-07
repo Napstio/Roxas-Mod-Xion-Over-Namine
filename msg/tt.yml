@@ -1,0 +1,676 @@
+- id: 13390
+  en: >-
+    Who are you?
+
+    And that´s not my name.{:delay 9A 00}{:clear }I´m Xion.
+  fr: >-
+    Qui es-tu ?{:delay 42 00}{:clear }Je ne suis pas Kairi, mais Xion.
+  gr: >-
+    Wer bist du? Und ich heiße nicht so.{:delay 9A 00}{:clear }Ich bin Xion.
+  it: >-
+    Chi sei tu?
+
+    Quello non è il mio nome.{:delay 9A 00}{:clear }Io sono Xion.
+  sp: >-
+    ¿Quién eres?
+
+    Yo no me llamo así.{:delay 9A 00}{:clear }Soy Xion.
+- id: 13391
+  en: >-
+    Xion... I know you.{:delay 78 00}{:clear }{:delay 28 00}{:clear }You´re that girl he likes.
+  fr: >-
+    Xion... Je te connais.{:delay 78 00}{:clear }{:delay 1E 00}{:clear }Tu es la fille qu'il aime.
+  gr: >-
+    Xion ... Ich kenne dich.{:delay 78 00}{:clear }{:delay 28 00}{:clear }Du bist das Mädchen, das er mag.
+  it: >-
+    Xion... ti conosco.{:delay 78 00}{:clear }{:delay 28 00}{:clear }Sei la ragazza che piace a lui.
+  sp: >-
+    Xion... Yo te conozco.{:delay 78 00}{:clear }{:delay 28 00}{:clear }Eres la chica que le gusta.
+- id: 13396
+  en: >-
+    You don´t remember my name?{:delay 64 00}{:clear }Thanks a lot, Xion!
+  fr: >-
+    Tu ne te souviens pas de mon nom ?{:delay 7E 00}{:clear }Ça fait plaisir !
+  gr: >-
+    Du weißt meinen Namen nicht mehr?{:delay 64 00}{:clear }Vielen Dank, Xion!
+  it: >-
+    Non ti ricordi il mio nome?{:delay 64 00}{:clear }Grazie tante, Xion!
+  sp: >-
+    ¿No recuerdas mi nombre? {:delay 7C 00}{:clear }¡Muchas gracias, Xion!
+- id: 13402
+  en: >-
+    Kairi´s encounter with Sora{:delay 78 00}{:clear } {:delay 05 00}{:clear }put his heart in contact
+
+    with Xion´s.{:delay AA 00}{:clear } {:delay 4F 00}{:clear }And that, in turn, affected Roxas.{:delay BF 00}{:clear } {:delay 1E 00}{:clear }You see?
+  fr: >-
+    La rencontre entre Kairi et Sora{:delay 9C 00}{:clear } {:delay 12 00}{:clear }a mis en contact le cæur du
+
+    garçon et celui de Xion.{:delay D2 00}{:clear } {:delay 18 00}{:clear }Une connexion qui a eu un effet sur Roxas.{:delay 96 00}{:clear } {:delay 18 00}{:clear }Tu comprends ?
+  gr: >-
+    Durch Naminés Begegnung mit Sora ...{:delay 90 00}{:clear }... hat sein Herz Kontakt zu
+
+    dem von Xion aufgenommen.{:delay C8 00}{:clear }{:delay 22 00}{:clear }Und das hatte wiederum Einfluss auf Roxas.{:delay AB 00}{:clear }{:delay 05 00}{:clear }Verstehst du?
+  it: >-
+    L'incontro tra Kairi e Sora...{:delay 78 00}{:clear } {:delay 05 00}{:clear }... ha messo in contatto il cuore
+
+    di Sora con quello di Xion.{:delay AA 00}{:clear } {:delay 4F 00}{:clear }E ciò, a sua volta, ha avuto
+
+    effetto su Roxas.{:delay BF 00}{:clear } {:delay 1E 00}{:clear }Capisci?
+  sp: >-
+    El encuentro de Kairi con Sora puso{:delay 78 00}{:clear }su corazón en contacto
+
+    con el de Xion.{:delay AA 00}{:clear } {:delay 4F 00}{:clear }Y eso, de paso, ha afectado a Roxas.{:delay BF 00}{:clear } {:delay 14 00}{:clear }¿Entiendes?
+- id: 13677
+  en: >-
+    Do you know a girl named Xion?
+  fr: >-
+    Tu connais une fille qui s'appelle Xion ?
+  gr: >-
+    Kennst du ein Mädchen namens Xion?
+  it: >-
+    Conosci una ragazza di nome Xion?
+  sp: >-
+    ¿Conoces a una chica llamada Xion?
+- id: 13678
+  en: >-
+    X-Xion!? I sure do!
+  fr: >-
+    X... Xion ? Bien sûr que oui !
+  gr: >-
+    X-Xion? Na klar doch!
+  it: >-
+    X... Xion?!
+
+    Certo che la conosco!
+  sp: >-
+    ¿¡Xi... Xion!? ¡Claro que sí!
+- id: 13681
+  en: >-
+    Hey, so how do you guys know Xion?
+  fr: >-
+    Hé, comment se fait-il que
+
+    vous connaissiez Xion ?
+  gr: >-
+    Sagt schon, woher kennt ihr denn Xion?
+  it: >-
+    Ehi, come fate
+
+    a conoscere Xion?
+  sp: >-
+    Oye, ¿cómo es que conocéis a Xion?
+- id: 13682
+  en: >-
+    Xion was really here!?
+  fr: >-
+    Xion était vraiment là ?
+  gr: >-
+    Xion war wirklich hier?!
+  it: >-
+    Xion è stata davvero qui?!
+  sp: >-
+    ¿De verdad Xion ha estado aquí?
+- id: 13690
+  en: >-
+    What took you so long, Xion?
+  fr: >-
+    Tu en as mis du temps, Xion.
+  gr: >-
+    Wieso hat das so lange gedauert, Xion?
+  it: >-
+    Come mai ci hai messo tanto, Xion?
+  sp: >-
+    ¿Por qué has tardado tanto, Xion?
+- id: 13693
+  en: >-
+    Xion...
+  fr: >-
+    Xion...
+  gr: >-
+    Xion ...
+  it: >-
+    Xion...
+  sp: >-
+    Xion...
+- id: 13698
+  en: >-
+    I gotta help Xion!
+  fr: >-
+    Je dois aider Xion !
+  gr: >-
+    Ich muss Xion retten!
+  it: >-
+    Devo aiutare Xion!
+  sp: >-
+    ¡Tengo que ayudar a Xion!
+- id: 13706
+  en: >-
+    A new road is open.{:delay 72 00}{:clear }And Xion and Axel are waiting
+
+    somewhere along it.
+  fr: >-
+    Un nouveau chemin est apparu.{:delay 72 00}{:clear }Avec un peu de chance, il
+
+    nous mènera à Axel et Xion.
+  gr: >-
+    Ein neuer Pfad liegt vor uns.{:delay 74 00}{:clear }Und Xion und Axel erwarten
+
+    uns irgendwo unterwegs.
+  it: >-
+    Si è aperto un nuovo sentiero...{:delay 72 00}{:clear }... lungo il quale ci aspettano
+
+    Xion e Axel.
+  sp: >-
+    Se ha abierto una nueva ruta.{:delay 72 00}{:clear }Y Xion y Axel nos esperan
+
+    en algún punto de ella.
+- id: 13735
+  en: >-
+    We came here looking for Xion.{:delay AA 00}{:clear }Then those white things attacked us...
+  fr: >-
+    On essayait de retrouver Xion,{:delay AE 00}{:clear }mais on a été attaqués par ces trucs blancs.
+  gr: >-
+    Wir haben hier nach Xion gesucht, aber ...{:delay 78 00}{:clear }{:delay 2D 00}{:clear }... dann griffen uns diese weißen Gestalten an.
+  it: >-
+    Siamo venuti qui per cercare Xion.{:delay AA 00}{:clear }E poi quei cosi bianchi
+
+    ci hanno attaccati...
+  sp: >-
+    Vinimos en busca de Xion,{:delay AA 00}{:clear }y esas cosas blancas nos atacaron.
+- id: 13738
+  en: >-
+    Of course we did.
+
+    Xion´s our friend, too, ya know.
+  fr: >-
+    Bien sûr que si ! Xion est aussi notre amie.
+  gr: >-
+    Und ob wir das mussten.
+
+    Einem Freund in Not muss man doch helfen.
+  it: >-
+    E invece sì!
+
+    Xion è anche amica nostra!
+  sp: >-
+    Claro que sí.
+
+    Xion también es amiga nuestra.
+- id: 13754
+  en: >-
+    Like Xion.
+  fr: >-
+    Xion aussi.
+  gr: >-
+    Auch Xion.
+  it: >-
+    Come Xion.
+  sp: >-
+    Como Xion.
+- id: 13758
+  en: >-
+    And we´ve figured out where Xion is!
+
+    I´m pretty sure we´re right.
+  fr: >-
+    Nous, nous avons une idée
+
+    de l'endroit où se trouve Xion.
+  gr: >-
+    Und wir wissen jetzt, wo Xion ist.{:delay 64 00}{:clear }Ich bin mir sicher, wir irren uns nicht!
+  it: >-
+    E noi abbiamo capito dov'è Xion.
+
+    Sono sicuro che abbiamo indovinato!
+  sp: >-
+    Y nosotros ya sabemos dónde está Xion.
+
+    ¡Estoy casi seguro!
+- id: 13781
+  en: >-
+    Xion! Axel! We´re on our way!
+  fr: >-
+    Xion. Axel. On arrive.
+  gr: >-
+    Xion! Axel! Wir kommen!
+  it: >-
+    Xion! Axel!
+
+    Stiamo arrivando!
+  sp: >-
+    ¡Xion! ¡Axel! ¡Ya vamos!
+- id: 13812
+  en: >-
+    Say hi to Xion!
+  fr: >-
+    Dis bonjour à Xion.
+  gr: >-
+    Grüß Xion von uns!
+  it: >-
+    Salutateci Xion!
+  sp: >-
+    ¡Saluda a Xion!
+- id: 13822
+  en: >-
+    Axel! Xion!
+  fr: >-
+    Axel ! Xion !
+  gr: >-
+    Axel! Xion!
+  it: >-
+    Axel! Xion!
+  sp: >-
+    ¡Axel! ¡Xion!
+- id: 13829
+  en: >-
+    I kidnapped Xion, but
+
+    she got away from me.{:delay C0 00}{:clear }{:delay 3C 00}{:clear }After that, Saïx caught her.
+  fr: >-
+    J'ai enlevé Xion, mais elle
+
+    a réussi à s'échapper.{:delay B4 00}{:clear }{:delay 36 00}{:clear }Malheureusement, Saïx l'a rattrapée.
+  gr: >-
+    Ich habe Xion entführt,
+
+    aber sie ist mir entwischt.{:delay C0 00}{:clear }{:delay 28 00}{:clear }Und danach hat Saïx sie sich geschnappt.
+  it: >-
+    Avevo rapito Xion,
+
+    ma mi è sfuggita.{:delay C0 00}{:clear }{:delay 3C 00}{:clear }E poi Saïx l'ha catturata.
+  sp: >-
+    Yo secuestré a Xion,
+
+    pero se me escapó.{:delay B4 00}{:clear }{:delay 3C 00}{:clear }Y después, Saïx la capturó.
+- id: 14312
+  en: >-
+    ...Restored peace to the world...
+
+    found Xion...{:delay B4 00}{:clear }{:delay 32 00}{:clear }Oh yeah, and then we went to look for Axel.
+
+    I think that's right so far.
+  fr: >-
+    Ramené la paix dans le monde...
+
+    retrouvé Xion...{:delay B4 00}{:clear }{:delay 32 00}{:clear }Ah oui, ensuite, on est partis
+
+    à la recherche de Axel.{:delay F0 00}{:clear }Ça, on s'en souvient.
+  gr: >-
+    ... den Frieden wiederhergestellt,
+
+    Xion getroffen ...{:delay B4 00}{:clear }{:delay 32 00}{:clear }Oh ja, und dann haben wir
+
+    wieder nach Axel gesucht.{:delay E6 00}{:clear }Kommt das so in etwa hin?
+  it: >-
+    Riportato la pace nel mondo...
+
+    Trovato Xion...{:delay B4 00}{:clear }{:delay 32 00}{:clear }Ah, sì! E poi siamo andati a cercare
+
+    Axel. Credo sia tutto giusto fin qui.
+  sp: >-
+    Devolvimos la paz al mundo.{:delay 8C 00}{:clear }Encontramos a Xion...{:delay 70 00}{:clear }Ah, sí, y nos fuimos a buscar a Axel.{:delay D1 00}{:clear }Creo que hasta ahí voy bien.
+- id: 14359
+  en: >-
+    Well, I'm gonna go look for Axel.{:delay 9B 00}{:clear }{:delay 14 00}{:clear }Then he and I can go back
+
+    to the islands together.{:delay AA 00}{:clear }Xion's there waiting for us!{:delay 78 00}{:clear }{:delay 1E 00}{:clear }What are you two gonna do?
+  fr: >-
+    Alors, je pars à sa recherche.{:delay AF 00}{:clear }Pour qu'on puisse retourner
+
+    sur l'île ensemble.{:delay AA 00}{:clear }Xion nous y attend.{:delay 64 00}{:clear }{:delay 1E 00}{:clear }Et vous, qu'est-ce que vous allez faire ?
+  gr: >-
+    Also, ich gehe Axel suchen.{:delay 9B 00}{:clear }{:delay 0A 00}{:clear }Dann können er und ich zur Insel zurück.{:delay B4 00}{:clear }Zur Insel, auf der Xion auf uns wartet!{:delay 78 00}{:clear }{:delay 1E 00}{:clear }Was macht ihr beiden jetzt?
+  it: >-
+    Bene, io vado a cercare Axel.{:delay 9B 00}{:clear }{:delay 14 00}{:clear }Poi potremo tornare
+
+    all'isola insieme.{:delay AA 00}{:clear }Xion è lì che ci aspetta!{:delay 78 00}{:clear }{:delay 1E 00}{:clear }Voi due che farete?
+  sp: >-
+    Pues yo me voy a buscar a Axel.{:delay 9B 00}{:clear }{:delay 14 00}{:clear }Así podremos volver a
+
+    las islas juntos.{:delay AA 00}{:clear }¡Xion está allí esperándonos!{:delay 78 00}{:clear }{:delay 1E 00}{:clear }¿Qué vais a hacer vosotros?
+- id: 15907
+  en: >-
+    Anyway, I digress.
+
+    Go, find Xion.{:delay 4A 01}{:clear }Oh, almost forgot...{:delay B4 00}{:clear }Sorry for what I did to her.
+  fr: >-
+    Enfin bref, c'est pas grave.
+
+    Pars... Retrouve Xion.{:delay 98 01}{:clear }Dis-lui que...{:delay 6C 00}{:clear }je regrette ce que je lui ai fait.
+  gr: >-
+    Aber ich schweife ab. Geh. Such Xion.{:delay 4A 01}{:clear }Ach. Und was ich ihr angetan hab --{:delay B4 00}{:clear }... es tut mir echt Leid.
+  it: >-
+    Sto divagando.
+
+    Andate, trovate Xion.{:delay 4A 01}{:clear }Oh, quasi dimenticavo...{:delay B4 00}{:clear }Mi dispiace per ciò che le ho fatto.
+  sp: >-
+    En fin, estoy divagando.
+
+    Ve a buscar a Xion.{:delay 4A 01}{:clear }Ah, se me olvidaba...{:delay B4 00}{:clear }Perdona por lo que le hice.
+- id: 15913
+  en: >-
+    Xion´s in the castle dungeon.{:delay 82 00}{:clear }Now go.
+  fr: >-
+    Xion se trouve dans le donjon.{:delay 84 00}{:clear }Vas-y.
+  gr: >-
+    Xion ist im Schlosskerker.{:delay 82 00}{:clear }Geh jetzt.
+  it: >-
+    Xion è nelle segrete del castello.{:delay 82 00}{:clear }Ora andate!
+  sp: >-
+    Xion está presa en el castillo.{:delay 82 00}{:clear }Daos prisa.
+- id: 16856
+  en: >-
+    I tell ya, Xion, you´ve got a lot of guts,
+
+    jumping right into the darkness like that.
+  fr: >-
+    Dis donc, Xion, t'as un sacré courage.{:delay B4 00}{:clear }Sauter comme ça dans les ténèbres...
+  gr: >-
+    Das muss man dir lassen, Xion.{:delay 78 00}{:clear }Ganz schön mutig von dir, einfach
+
+    so in die Dunkelheit zu springen.
+  it: >-
+    Sai, Xion, hai avuto molto fegato
+
+    a saltare nell'oscurità in quel modo.
+  sp: >-
+    Mira, Xion,{:delay 3C 00}{:clear }tienes mucho valor para saltar a
+
+    la oscuridad así por las buenas.
+- id: 17958
+  en: >-
+    J-just hurry to the {:theme 0A}Station Plaza!{:reset}
+
+    You can ask more about Xion there!
+  fr: >-
+    Va vite à la {:theme 0A}place de la gare{:reset} !
+
+    Tu en sauras plus à propos de Xion !
+  gr: >-
+    Beeil dich, schnell zum Bahnhofsplatz!
+
+    Du kannst mich dort mehr über Xion fragen!
+  it: >-
+    Svelto, va' a {:theme 0A}Piazza della Stazione!{:reset}
+
+    Là potremo parlare di Xion.
+  sp: >-
+    ¡Deprisa! ¡A la {:theme 0A}Plaza de la Estación!{:reset}
+
+    ¡Allí puedes averiguar más sobre Xion!
+- id: 17982
+  en: >-
+    I feel we´ll see you again. Bring Xion
+
+    back with you, okay?{:clear }We´ll be here waiting for you!
+  fr: >-
+    Je sais que nous nous reverrons.
+
+    Ramenez vite Xion !{:clear }On vous attendra ici.
+  gr: >-
+    Mein Gefühl sagt mir, wir sehen uns wieder.
+
+    Komm zusammen mit Xion wieder zurück, ja?{:clear }Wir werden hier auf euch warten!
+  it: >-
+    Credo che ci incontreremo ancora.
+
+    Porta indietro Xion, va bene?{:clear }Ti aspetteremo qui!
+  sp: >-
+    Algo me dice que volveremos a verte.
+
+    Trae a Xion contigo, ¿vale?{:clear }¡Te estaremos esperando!
+- id: 18206
+  en: >-
+    A symbol is drawn in two circles.
+
+    You could continue the drawing if
+
+    you only had the right clue.
+  fr: >-
+    Un symbole est inscrit dans
+
+    deux cercles. Avec un indice,
+
+    tu pourrais compléter le dessin.
+  gr: >-
+    In zwei Kreisen sind Symbole eingezeichnet.
+
+    Mit dem richtigen Hinweis könntest du die
+
+    Zeichnung vielleicht vervollständigen.
+  it: >-
+    Nei due cerchi c'è un simbolo.
+
+    Potresti completare il disegno
+
+    se avessi un indizio.
+  sp: >-
+    Hay un símbolo dentro de los círculos.
+
+    Si al menos tuvieras una pista,
+
+    podrías continuar el dibujo.
+- id: 19662
+  en: >-
+    Gimme a break, Xi--!
+  fr: >-
+    Tu m'as fait peur, Xi...
+  gr: >-
+    Hast du mich erschreckt, Xi--!
+  it: >-
+    Dai, smettila, Xi...
+  sp: >-
+    ¡Qué susto, Xi!...
+- id: 19675
+  en: >-
+    Axel! Xi--!
+  fr: >-
+    Axel ! Xi...
+  gr: >-
+    Axel! Xi--!
+  it: >-
+    Axel! Xi...
+  sp: >-
+    ¡Axel!... Xi...
+- id: 19701
+  en: >-
+    I still can´t believe it.{:delay A2 00}{:clear }I really flew. Wait ´til I tell Xio--.{:delay C6 00}{:clear }I wonder if she´ll believe me. Probably not.
+  fr: >-
+    Alors ça, j'y crois pas !{:delay A2 00}{:clear }J'ai vraiment volé. Faut
+
+    que je raconte ça à Xi...{:delay E6 00}{:clear }Je me demande si elle me croira.
+
+    Ça m'étonnerait.
+  gr: >-
+    Ich kann's immer noch nicht fassen.{:delay B4 00}{:clear }Ich bin wirklich geflogen.
+
+    Wenn ich das Xio-- erzähle.{:delay CD 00}{:clear }Bin gespannt, ob sie mir glaubt.
+
+    Wahrscheinlich nicht.
+  it: >-
+    Non riesco ancora a crederci.{:delay A2 00}{:clear }Ho volato davvero!
+
+    Aspetta quando lo dirò a Xio...{:delay C6 00}{:clear }Chissà se ci crederà.
+
+    Probabilmente no.
+  sp: >-
+    Todavía no me lo creo.{:delay A2 00}{:clear }¡He volado!{:delay C6 00}{:clear }¡Xio... no se lo va a creer
+
+    cuando se lo cuente!
+- id: 19716
+  en: >-
+    Forget it!
+
+    There´s no way you´re taking Xion´s heart!
+  fr: >-
+    Pas question ! Tu ne prendras
+
+    pas le cæur de Xion !
+  gr: >-
+    Vergiss es! Kairis Herz bekommst du niemals!
+  it: >-
+    Scordatelo!
+
+    Non prenderai mai il cuore di Xion!
+  sp: >-
+    ¡Olvídalo!
+
+    ¡No te llevarás el corazón de Xion!
+- id: 19717
+  en: >-
+    Xion.
+  fr: >-
+    Xion.
+  gr: >-
+    Xion.
+  it: >-
+    Xion.
+  sp: >-
+    Xion...
+- id: 19731
+  en: >-
+    Xion!
+  fr: >-
+    Xion !
+  gr: >-
+    Xion!
+  it: >-
+    Xion!
+  sp: >-
+    Xion.
+- id: 19733
+  en: >-
+    Xion, remember what you said before?{:delay 96 00}{:clear }I´m always with you, too.{:delay 67 00}{:clear }I´ll come back to you.{:delay 63 00}{:clear }I promise!
+  fr: >-
+    Xion ! Tu te souviens de ce que tu as dit ?{:delay AF 00}{:clear }Je serai toujours avec toi.{:delay 7B 00}{:clear }Je reviendrai.{:delay 6E 00}{:clear }Je te le promets.
+  gr: >-
+    Xion! Weißt du noch,
+
+    was du gesagt hast?{:delay C2 00}{:clear }Ich bin immer bei dir.
+
+    Ich komm zu dir zurück.{:delay C7 00}{:clear }Versprochen.
+  it: >-
+    Xion, ricordi cosa hai detto prima?{:delay 96 00}{:clear }Anch'io sarò sempre con te!{:delay 67 00}{:clear }Tornerò!{:delay 63 00}{:clear }Lo prometto!
+  sp: >-
+    Xion, ¿recuerdas lo que
+
+    dijiste antes?{:delay 96 00}{:clear }Yo también estoy siempre contigo.{:delay 67 00}{:clear }¡Volveré, te lo prometo!
+- id: 21629
+  en: >-
+    {:delayandfade 07 B4} 
+
+    After rescuing Xion's heart, Roxas faces one last battle.
+
+     
+
+    He finds strength in the promises they made to
+
+    each other long ago.
+
+     
+
+    "No matter where we are, our hearts will bring us
+
+    together again."
+
+     
+
+    "Don't forget. Wherever you go, I'm always with you."
+
+     
+
+    
+  fr: >-
+    {:delayandfade 07 B4} 
+
+    Après avoir sauvé le cæur de Xion, Roxas s'est
+
+    jeté dans une dernière bataille, encouragé par
+
+    les promesses que son amie et lui s'étaient 
+
+    faites par le passé...
+
+    
+
+    «Peu importe où nous sommes, nos cæurs
+
+    nous réuniront à nouveau.»
+
+    
+
+    « N'oublie jamais. Où que tu ailles, je serai
+
+    toujours à tes côtés. »
+
+    
+  gr: >-
+    {:delayandfade 0A 78} 
+
+    Roxas rettet Kairis Herz.
+
+     
+
+    "Solange unsere Herzen verbunden sind,
+
+    werden wir uns wiedersehen!"
+
+    "Vergiss nicht, dass ich immer bei dir bin!"
+
+    Mit diesem Versprechen in sich stürzt
+
+    Roxas sich in seinen letzten Kampf.
+
+     
+
+     
+
+     
+
+     
+  it: >-
+    {:delayandfade 07 78} 
+
+    Dopo aver salvato il cuore di Xion, Roxas
+
+    affronta un'ultima battaglia. Trova forza
+
+    nelle promesse che si sono fatti l'un
+
+    l'altra tanto tempo fa.
+
+    
+
+    "Non importa dove saremo,
+
+    i nostri cuori ci riuniranno."
+
+     
+
+    "Non dimenticarlo mai. Ovunque tu
+
+    vada, io sarò sempre con te."
+
+    
+  sp: >-
+    {:delayandfade 0A 78} 
+
+    Tras rescatar el corazón de Xion, Roxas
+
+    se encamina a la batalla definitiva.
+
+     
+
+    "Estemos donde estemos, nuestros
+
+    corazones volverán a reunirnos."
+
+     
+
+    "No lo olvides. Siempre estoy contigo."
+
+     
+
+    Aquellas promesas resuenan ahora
+
+    más fuerte si cabe en sus corazones.
