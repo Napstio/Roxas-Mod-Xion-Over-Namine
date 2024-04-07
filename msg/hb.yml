@@ -1,0 +1,394 @@
+- id: 12516
+  en: >-
+    Where´s Xion? Where´s Axel?
+  fr: >-
+    Où est Xion ? Où est Axel ?
+  gr: >-
+    Wo ist Xion?! Wo ist Axel?!
+  it: >-
+    Dov'è Xion? E Axel?
+  sp: >-
+    ¿Dónde están Xion... y Axel?
+- id: 12554
+  en: >-
+    Axel and Xion!
+  fr: >-
+    Axel et Xion !
+  gr: >-
+    Axel und Xion!
+  it: >-
+    Axel e Xion!
+  sp: >-
+    ¡Axel y Xion!
+- id: 12606
+  en: >-
+    You...!{:delay 3C 00}{:clear }{:delay 2D 00}{:clear }You started all of this!{:delay 54 00}{:clear }{:delay 4E 00}{:clear }Because of you, Axel and Xion...
+  fr: >-
+    Toi...{:delay 2A 00}{:clear }{:delay 3C 00}{:clear }Tout ça, c'est ta faute.{:delay 4E 00}{:clear }{:delay 54 00}{:clear }À cause de toi,{:delay 36 00}{:clear }{:delay 18 00}{:clear }Axel et Xion...
+  gr: >-
+    Du ...!{:delay 3C 00}{:clear }{:delay 2D 00}{:clear }Du bist an allem Schuld!{:delay 78 00}{:clear }{:delay 3C 00}{:clear }Wegen dir sind Axel und Xion --
+  it: >-
+    Tu!{:delay 3C 00}{:clear }{:delay 2D 00}{:clear }Sei stato tu a iniziare tutto questo!{:delay 54 00}{:clear }{:delay 4E 00}{:clear }Per colpa tua, Axel e Xion...
+  sp: >-
+    ¡Tú! {:delay 3C 00}{:clear }{:delay 2D 00}{:clear }¡Tú empezaste todo esto! {:delay 54 00}{:clear }{:delay 4E 00}{:clear }Por tu culpa, Axel y Xion...
+- id: 12611
+  en: >-
+    What about Xion?{:delay 3C 00}{:clear }{:delay 2A 00}{:clear }Organization {XIII} might´ve kidnapped her.
+  fr: >-
+    Et Xion ?{:delay 36 00}{:clear }{:delay 2A 00}{:clear }C'est peut-être l'Organisation XIII
+
+    qui l'a enlevée.
+  gr: >-
+    Und was ist mit Xion?{:delay 55 00}{:clear }{:delay 0F 00}{:clear }Die Organisation {XIII} hat sie vielleicht entführt.
+  it: >-
+    E Xion?{:delay 3C 00}{:clear }{:delay 2A 00}{:clear }L'Organizzazione {XIII}
+
+    potrebbe averla rapita.
+  sp: >-
+    ¿Y qué pasa con Xion? {:delay 3C 00}{:clear }{:delay 2A 00}{:clear }¡Quizá la Organización
+
+    la haya secuestrado!
+- id: 12618
+  en: >-
+    Let´s look for Axel and Xion together.
+  fr: >-
+    Cherchons Axel et Xion ensemble.
+  gr: >-
+    Suchen wir Axel und Xion doch gemeinsam.
+  it: >-
+    Cerchiamo insieme Axel e Xion.
+  sp: >-
+    Iremos juntos a buscar
+
+    a Axel y a Xion.
+- id: 12675
+  en: >-
+    Okay, fellas,
+
+    you´ve gotta go find Axel and Xion!
+  fr: >-
+    Vous trois, partez
+
+    retrouver Axel et Xion.
+  gr: >-
+    Los jetzt, ihr müsst Axel und Xion finden!
+  it: >-
+    Ora ragazzi, dovete andare
+
+    a cercare Axel e Xion!
+  sp: >-
+    Bien, chicos, tenéis que ir
+
+    a buscar a Axel y a Xion.
+- id: 12680
+  en: >-
+    Axel, Xion...give me
+
+    a little time, okay?
+  fr: >-
+    Axel, Xion... Attendez-moi
+
+    encore un peu.
+  gr: >-
+    Axel, Xion ... Wartet noch eine Weile, ja?
+  it: >-
+    Axel, Xion...
+
+    datemi un po' di tempo, d'accordo?
+  sp: >-
+    Axel, Xion... dadme
+
+    un poco de tiempo, ¿vale?
+- id: 12682
+  en: >-
+    We understand. We´ll go
+
+    search for Axel and Xion!
+  fr: >-
+    Compris. Nous allons
+
+    retrouver Axel et Xion !
+  gr: >-
+    Zu Befehl. Wir gehen Axel und Xion suchen!
+  it: >-
+    Abbiamo capito.
+
+    Andremo a cercare Axel e Xion!
+  sp: >-
+    Entendido. Partiremos en
+
+    busca de Axel y de Xion.
+- id: 12767
+  en: >-
+    Out with it, Nobody! Where´s Xion?
+
+    Where´s Axel!?
+  fr: >-
+    Ça suffit, Simili !
+
+    Où est Xion ? Où est Axel ?
+  gr: >-
+    Raus mit der Sprache, Niemand!
+
+    Wo ist Xion? Wo ist Axel?!
+  it: >-
+    Sputa il rospo, Nessuno!
+
+    Dov'è Xion? Dov'è Axel?
+  sp: >-
+    ¡Suéltalo, incorpóreo!
+
+    ¿Dónde está Xion? ¿Y Axel?
+- id: 12768
+  en: >-
+    I know nothing of any Xion.{:delay 73 00}{:clear }{:delay 2D 00}{:clear }As for Axel...{:delay 73 00}{:clear }Perhaps you should ask your king.
+  fr: >-
+    Je ne connais aucune Xion.{:delay 78 00}{:clear }{:delay 3C 00}{:clear }Quant à Axel...{:delay 48 00}{:clear }{:delay 3C 00}{:clear }Vous devriez demander à votre Roi.
+  gr: >-
+    Von dieser Xion weiß ich nichts.{:delay 78 00}{:clear }{:delay 2D 00}{:clear }Und was Axel betrifft ...{:delay 78 00}{:clear }Warum fragst du nicht den König?
+  it: >-
+    Non conosco nessuna Xion.{:delay 73 00}{:clear }{:delay 2D 00}{:clear }Quanto a Axel...{:delay 73 00}{:clear }Forse dovresti chiedere al tuo Re.
+  sp: >-
+    No sé nada de ninguna Xion.{:delay 83 00}{:clear }{:delay 30 00}{:clear }En cuanto a Axel...{:delay 71 00}{:clear }tal vez deberías preguntarle a tu rey.
+- id: 12784
+  en: >-
+    You...you´re the one who kidnapped Xion!
+  fr: >-
+    Toi. C'est toi qui as enlevé Xion !
+  gr: >-
+    Du. Du bist der Entführer von Xion!
+  it: >-
+    Tu. Tu sei quello che
+
+    ha rapito Xion!
+  sp: >-
+    ¡Tú! ¡Tú eres el que ha
+
+    secuestrado a Xion!
+- id: 12786
+  en: >-
+    Where is Xion?
+  fr: >-
+    Où est Xion ?
+  gr: >-
+    Wo ist Xion?
+  it: >-
+    Dov'è Xion?
+  sp: >-
+    ¿¡Dónde está Xion!?
+- id: 12788
+  en: >-
+    Look, about Xion...{:delay 64 00}{:clear }{:delay 23 00}{:clear }I´m sorry.
+  fr: >-
+    Écoute, au sujet de Xion...{:delay 66 00}{:clear }{:delay 12 00}{:clear }Je suis désolé.
+  gr: >-
+    Also, wegen Xion ...{:delay 64 00}{:clear }{:delay 19 00}{:clear }Das tut mir Leid.
+  it: >-
+    Senti, per Xion...{:delay 64 00}{:clear }{:delay 23 00}{:clear }Mi dispiace.
+  sp: >-
+    Mira, respecto a Xion...{:delay 64 00}{:clear }{:delay 23 00}{:clear }lo siento.
+- id: 12793
+  en: >-
+    If it´s Xion you´re worried about, don´t.
+
+    We´re taking very good care of her.
+  fr: >-
+    Inutile de t'inquiéter pour Xion.{:delay 84 00}{:clear }{:delay 2A 00}{:clear }Nous prenons grand soin de ton amie.
+  gr: >-
+    Du brauchst dir keine Sorgen
+
+    um Xion zu machen.{:delay 8C 00}{:clear }Wir passen sehr gut auf sie auf.
+  it: >-
+    Se è di Xion che ti preoccupi,
+
+    lascia stare.{:delay A5 00}{:clear }Ce ne stiamo prendendo cura noi.
+  sp: >-
+    Si es Xion lo que te preocupa,
+
+    tranquilo,{:delay A0 00}{:clear }estamos cuidando muy bien de ella.
+- id: 15173
+  en: >-
+    {:unk13 A0 00 E3 00}{:unk08 01 01 02}And maybe something on
+
+    the dark realm, too?{:clear }It looks like that´s where
+
+    Axel and Xion are.
+  fr: >-
+    {:unk13 A0 00 E3 00}{:unk08 01 01 02}Et peut-être même sur
+
+    le domaine des ténèbres.{:clear }Apparemment, c'est là-bas
+
+    que sont Axel et Xion.
+  gr: >-
+    {:unk13 A0 00 E3 00}{:unk08 01 01 02}Und vielleicht sogar
+
+    was über das Reich
+
+    der Dunkelheit?{:clear }Sieht ja so aus, als
+
+    ob Axel und Xion
+
+    sich dort befänden.
+  it: >-
+    {:unk13 A0 00 E3 00}{:unk08 01 01 02}E magari anche qualcosa
+
+    sul regno oscuro?{:clear }Sembra che Axel e
+
+    Xion si trovino là.
+  sp: >-
+    {:unk13 A0 00 E3 00}{:unk08 01 01 02}¿Y también algo sobre el
+
+    Reino de la Oscuridad?{:clear }Parece que allí es
+
+    donde están Axel y Xion.
+- id: 16059
+  en: >-
+    Xion! Axel!
+  fr: >-
+    Xion ! Axel !
+  gr: >-
+    Xion! Axel!
+  it: >-
+    Xion! Axel!
+  sp: >-
+    ¡Xion! ¡Axel!
+- id: 16071
+  en: >-
+    Not yet!
+
+    I gotta look for Xion!
+  fr: >-
+    Pas maintenant. Je dois
+
+    d'abord retrouver Xion.
+  gr: >-
+    Noch nicht! Ich muss erst Xion suchen!
+  it: >-
+    Non ora!
+
+    Devo cercare Xion!
+  sp: >-
+    ¡Aún no!
+
+    ¡Tengo que buscar a Xion!
+- id: 21484
+  en: >-
+    {:delayandfade 07 B4} 
+
+    Roxas returns to Merlin's house and is
+
+    informed by Cid that Ansem's computer has
+
+    been found. With it, they may be able to get
+
+    their hands on information regarding not
+
+    only Organization {XIII}, but Axel, Xion, and
+
+    even the King!
+
+     
+
+    Unable to contain their excitement, they
+
+    rush off to the computer room.
+
+     
+
+    
+  fr: >-
+    {:delayandfade 07 B4}
+
+    Lorsque Roxas est revenu chez Merlin,
+
+    Cid lui a annoncé qu'ils avaient trouvé
+
+    l'ordinateur d'Ansem.
+
+    
+
+    Ils allaient enfin recueillir des informations
+
+    au sujet de l'Organisation {XIII}, mais
+
+    également sur Axel, Xion et le Roi !
+
+    C'est le cæur battant que nos amis ont
+
+    pris le chemin de la salle informatique...
+
+    
+
+    
+  gr: >-
+    {:delayandfade 07 78} 
+
+    In Merlins Haus hat Cid Neuigkeiten:
+
+    Ansems Computer wurde gefunden!
+
+     
+
+    Auf ihm könnten nicht nur Daten
+
+    über die Organisation {XIII}, sondern
+
+    auch über Axel, Xion und sogar den
+
+    König sein!
+
+     
+
+    Roxas stürmt allen voran zum
+
+    Computer-Raum ...
+
+    
+  it: >-
+    {:delayandfade 07 78}
+
+    Poco dopo, Roxas torna a casa di Merlino
+
+    e Cid lo informa che hanno trovato il
+
+    computer di Ansem.
+
+     
+
+    Forse potrebbero usarlo per recuperare
+
+    informazioni sull'Organizzazione {XIII} e
+
+    anche su Axel, Xion e persino il Re!
+
+     
+
+    Incapaci di contenere l'agitazione,
+
+    corrono nella stanza del computer...
+
+    
+  sp: >-
+    {:delayandfade 0A 78} 
+
+    Roxas vuelve a la casa de Merlín y
+
+    recibe de Cid la noticia de que el
+
+    ordenador de Ansem ha aparecido
+
+    y que podría contener datos sobre
+
+    Axel, Xion, el rey y la Organización {XIII}.
+
+     
+
+    Entusiasmados por el hallazgo,
+
+    Roxas, Donald y Goofy se apresuran
+
+    hacia la sala del ordenador.
+
+     
+
+    

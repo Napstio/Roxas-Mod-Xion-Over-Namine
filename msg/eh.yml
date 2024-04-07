@@ -1,0 +1,407 @@
+- id: 16214
+  en: >-
+    Axel said Xion´s in the dungeon.
+  fr: >-
+    Axel a dit que Xion est dans le donjon.
+  gr: >-
+    Axel sagte, Xion wäre im Schlosskerker.
+  it: >-
+    Axel ha detto che
+
+    Xion è nelle segrete.
+  sp: >-
+    Según Axel, Xion está
+
+    en las mazmorras.
+- id: 16243
+  en: >-
+    Xion, you were great!
+  fr: >-
+    Xion, tu as été géniale !
+  gr: >-
+    Xion, du warst klasse!
+  it: >-
+    Xion, sei stata grande!
+  sp: >-
+    ¡Xion, has estado genial!
+- id: 16245
+  en: >-
+    You are different, Xion,{:delay 5A 00}{:clear }but I´m just glad you´re here!
+  fr: >-
+    Tu as changé, Xion.{:delay 5A 00}{:clear }Je suis si content de te revoir !
+  gr: >-
+    Du hast dich verändert, Xion.{:delay 5A 00}{:clear }Aber bin ich froh, dich zu sehen!
+  it: >-
+    Sei diversa, Xion...{:delay 5A 00}{:clear }... ma sono felice che tu sia qui!
+  sp: >-
+    Te veo cambiada, Xion, {:delay 5A 00}{:clear }¡pero me alegra que estés aquí!
+- id: 16251
+  en: >-
+    But you saved Xion, right?{:delay 5D 00}{:clear } {:delay 3C 00}{:clear }I have to be grateful for that...{:delay 6B 00}{:clear } {:delay 4A 00}{:clear }Thanks.
+  fr: >-
+    Tu as sauvé Xion, n'est-ce pas ?{:delay 5D 00}{:clear }  {:delay 3C 00}{:clear }Je t'en suis terriblement reconnaissant.{:delay 6B 00}{:clear }  {:delay 4A 00}{:clear }Merci.
+  gr: >-
+    Aber du hast Xion gerettet, stimmt's?{:delay 78 00}{:clear }{:delay 28 00}{:clear }Dafür muss ich dir dankbar sein.{:delay 64 00}{:clear }{:delay 28 00}{:clear }Danke.
+  it: >-
+    Però hai salvato Xion, giusto?{:delay 5D 00}{:clear } {:delay 3C 00}{:clear }Devo esserti grato per questo...{:delay 6B 00}{:clear } {:delay 4A 00}{:clear }Grazie.
+  sp: >-
+    Pero has salvado a Xion, ¿no? {:delay 70 00}{:clear } {:delay 2B 00}{:clear }Eso te lo agradezco... {:delay 5E 00}{:clear } {:delay 50 00}{:clear }Gracias.
+- id: 16254
+  en: >-
+    Xion, what did you just say?
+  fr: >-
+    Xion, qu'est-ce que tu viens de dire ?
+  gr: >-
+    Xion, was hast du grade gesagt?
+  it: >-
+    Xion, che cos'hai detto?
+  sp: >-
+    Xion, ¿qué acabas de decir?
+- id: 16349
+  en: >-
+    Right.{:delay 5C 00}{:clear }Anytime Roxas and Xion are together.
+  fr: >-
+    Oui.{:delay 46 00}{:clear }À chaque fois que Roxas et Xion
+
+    seront ensemble.
+  gr: >-
+    Richtig.{:delay 3C 00}{:clear }Immer, wenn Roxas und Xion zusammen sind.
+  it: >-
+    Esatto!{:delay 5C 00}{:clear }Ogni volta che Roxas
+
+    e Xion sono insieme.
+  sp: >-
+    Sí.{:delay 5C 00}{:clear }Siempre que Roxas y Xion lo estén.
+- id: 16391
+  en: >-
+    Where´s Xion?
+  fr: >-
+    Où est Xion ?
+  gr: >-
+    Wo ist Xion?
+  it: >-
+    Dov'è Xion?
+  sp: >-
+    ¿Dónde está Xion?
+- id: 16403
+  en: >-
+    Xion!
+  fr: >-
+    Xion !
+  gr: >-
+    Xion!
+  it: >-
+    Xion!
+  sp: >-
+    ¡Xion!
+- id: 16428
+  en: >-
+    Roxas! It´s Xion!
+  fr: >-
+    Roxas ! C'est Xion !
+  gr: >-
+    Roxas! Da, Xion!
+  it: >-
+    Roxas! È Xion!
+  sp: >-
+    ¡Roxas! ¡Es Xion!
+- id: 16433
+  en: >-
+    Xion, we´re on our way!
+  fr: >-
+    Xion. On arrive tout de suite !
+  gr: >-
+    Xion, bitte halte durch!
+  it: >-
+    Xion, stiamo arrivando.
+  sp: >-
+    Xion, ya vamos.
+- id: 16679
+  en: >-
+    Xion... We´re almost there.
+  fr: >-
+    Xion... On arrive !
+  gr: >-
+    Xion ... Nicht mehr lange!
+  it: >-
+    Xion... Ci siamo quasi.
+  sp: >-
+    Xion... Ya vamos.
+- id: 16680
+  en: >-
+    Xion! Where are you?
+  fr: >-
+    Xion ! Où es-tu ?
+  gr: >-
+    Xion! Wo bist du?
+  it: >-
+    Xion! Dove sei?
+  sp: >-
+    ¡Xion! ¿Dónde estás?
+- id: 16686
+  en: >-
+    Xion. I´m afraid leaving is not an option.
+  fr: >-
+    Xion. Désolé, mais je ne
+
+    peux pas te laisser partir.
+  gr: >-
+    Xion. Dir ist klar, dass ich dich
+
+    nicht gehen lassen kann?
+  it: >-
+    Xion, temo che tu
+
+    non possa andartene.
+  sp: >-
+    Xion. Me temo que no
+
+    puedo dejarte ir.
+- id: 18438
+  en: >-
+    This town sure is dark. This is where
+
+    the Nobodies live, right?{:clear }C´mon. Let´s try to find a path to
+
+    the {:theme 0A}castle{:reset} Xion´s being held at.
+  fr: >-
+    Alors c'est dans cette ville toute
+
+    lugubre que vivent les Simili ?{:clear }Trouvons vite un moyen d'aller au
+
+    {:theme 0A}château{:reset} où est retenue Xion.
+  gr: >-
+    Hier ist es vielleicht dunkel.
+
+    Hier leben also die Niemande, oder?{:clear }Kommt, lasst uns versuchen, einen
+
+    Weg zu dem {:theme 0A}Schloss{:reset} zu finden, in
+
+    dem Xion gefangen gehalten wird.
+  it: >-
+    Com'è buia questa città...
+
+    Vivono qui i Nessuno, vero?{:clear }Su, cerchiamo la via che conduce al
+
+    {:theme 0A}castello{:reset} dove tengono prigioniera Xion.
+  sp: >-
+    Esta ciudad es muy oscura. Aquí viven
+
+    los incorpóreos, ¿no?{:clear }Vamos. Hay que encontrar un camino
+
+    hasta el {:theme 0A}castillo{:reset} donde tienen a Xion.
+- id: 18440
+  en: >-
+    This sure is a strange world.
+
+    The moon even looks like a heart.{:clear }C´mon, now that we´ve opened the path
+
+    to the {:theme 0A}castle{:reset}, let´s go rescue Xion!
+  fr: >-
+    Ce monde est vraiment surprenant.
+
+    La lune est en forme de cæur !{:clear }Maintenant qu'on a ouvert l'accès
+
+    au {:theme 0A}château{:reset}, allons sauver Xion !
+  gr: >-
+    Wirklich eine seltsame Welt.
+
+    Selbst der Mond sieht aus wie ein Herz.{:clear }Kommt, jetzt, wo der Weg zum {:theme 0A}Schloss{:reset}
+
+    frei ist, lasst uns Xion retten!
+  it: >-
+    Che mondo strano...
+
+    E la luna poi, sembra un cuore!{:clear }Avanti, facciamoci strada verso
+
+    il {:theme 0A}castello{:reset}. Dobbiamo salvare Xion!
+  sp: >-
+    Este mundo es muy extraño.
+
+    La luna parece un corazón.{:clear }¡Vamos! El camino al {:theme 0A}castillo{:reset}
+
+    está abierto, ¡rescatemos a Xion!
+- id: 18444
+  en: >-
+    What´s going on?
+
+    Ansem was fighting alongside Xion!{:clear }Anyway, Xion´s under attack.
+
+    We have to go help her!
+  fr: >-
+    Ansem combat aux côtés de Xion ?
+
+    Qu'est-ce que ça veut dire ?{:clear }En tout cas, elle est en danger !
+
+    Allons la secourir !
+  gr: >-
+    Was hat das zu bedeuten?
+
+    Ansem hat zusammen mit Xion gekämpft!{:clear }Wie auch immer, Xion wird angegriffen.
+
+    Wir müssen zu ihr und ihr helfen!
+  it: >-
+    Che diavolo succede? Perché Xion
+
+    combatteva al fianco di Ansem?{:clear }In ogni caso, Xion è in pericolo.
+
+    Dobbiamo andare a salvarla!
+  sp: >-
+    ¿Qué es lo que pasa?
+
+    ¡Ansem estaba luchando junto a Xion!{:clear }¡Pero ahora Xion tiene problemas!
+
+    ¡Tenemos que ayudarla!
+- id: 18445
+  en: >-
+    It doesn´t look like we can get to Xion
+
+    directly from here.{:clear }I know you´re in a hurry, but we need to
+
+    take that path over there.
+  fr: >-
+    Impossible de rejoindre
+
+    directement Xion d'ici.{:clear }Pas de panique,
+
+    suivons ce chemin.
+  gr: >-
+    Sieht nicht so aus, als könnten
+
+    wir direkt von hier zu Xion.{:clear }Ich weiß, es sollte schnell gehen, aber
+
+    wir müssen wohl den Weg da nehmen.
+  it: >-
+    Non credo che riusciremo a raggiungere
+
+    Xion direttamente da qui.{:clear }So che hai fretta, ma dobbiamo
+
+    andare da quella parte.
+  sp: >-
+    No creo que desde aquí podamos llegar
+
+    directamente hasta donde está Xion.{:clear }Sé que tienes prisa, pero necesitamos
+
+    seguir este camino.
+- id: 18936
+  en: >-
+    I saw it when Sora and Xion crossed paths.{:delay F0 00}{:clear }{:delay 21 00}I knew. {:delay 39 00}{:clear }{:delay 1E 00}But I was too stubborn to accept it.
+  fr: >-
+    Je l'ai vu quand les routes de Xion
+
+    et Sora se sont croisées.{:delay F0 00}{:clear }{:delay 21 00}Je l'ai compris.{:delay 39 00}{:clear }{:delay 1E 00}Mais j'étais trop entêté pour l'accepter.
+  gr: >-
+    Ich merkte es, als sich Sora'
+
+    und Kairis Wege kreuzten.{:delay EF 00}{:clear }{:delay 26 00}{:clear }Ich begriff.{:delay 46 00}{:clear }Aber ich war zu stur,
+
+    um es zu akzeptieren.
+  it: >-
+    L'ho notato quando Sora
+
+    e Xion si sono incontrati.{:delay F0 00}{:clear }{:delay 21 00}Lo sapevo.{:delay 39 00}{:clear }{:delay 1E 00}Ma ero troppo testardo
+
+    per ammetterlo.
+  sp: >-
+    Lo vi cuando Sora y Xion se cruzaron. {:delay E2 00}{:clear }{:delay 37 00}Lo supe. {:delay 2C 00}{:clear }{:delay 1E 00}Pero era demasiado cabezota
+
+    para aceptarlo.
+- id: 19122
+  en: >-
+    In the past, I was overcome by the dark and
+
+    betrayed you. Look what´s become of me.{:clear }I wasn´t sure I wanted to
+
+    see you...but Xion insisted.
+  fr: >-
+    Il y a un an, les ténèbres ont pris le dessus
+
+    et je t'ai trahi. Regarde ce que je suis devenu.{:clear }À vrai dire, je n'étais pas très à l'aise à l'idée
+
+    de te revoir, mais Xion m'a convaincu.
+  gr: >-
+    Vor einem Jahr hat mich die Dunkelheit
+
+    übermannt, und ich habe dich hintergangen.
+
+    Sieh nur, was aus mir geworden ist.{:clear }Ich war mir nicht sicher, ob ich dich sehen
+
+    wollte ... aber Xion hat darauf bestanden.
+  it: >-
+    In passato sono stato inghiottito
+
+    dall'oscurità e ti ho tradito.
+
+    Ed eccomi qui ora.{:clear }Io... non ero sicuro di volerti vedere,
+
+    ma Xion ha insistito tanto...
+  sp: >-
+    En el pasado, la oscuridad me venció,
+
+    y te traicioné. ¡En qué me he convertido!{:clear }No estaba seguro de querer
+
+    verte, pero Xion insistió.
+- id: 19123
+  en: >-
+    It´s amazing Xion and you recognized
+
+    Axel.{:clear }He looks just like Ansem. I couldn´t
+
+    believe my eyes when I first saw him.
+  fr: >-
+    Je sais pas comment Xion et toi
+
+    avez pu reconnaître Axel.{:clear }Il ressemble tellement à Ansem que je
+
+    n'aurais jamais deviné que c'était lui !
+  gr: >-
+    Erstaunlich, dass Xion und
+
+    du Axel wiedererkannt habt.{:clear }Er sieht aus wie Ansem. Ich konnte meinen
+
+    Augen kaum trauen, als ich ihn gesehen habe.
+  it: >-
+    È incredibile che tu e Xion
+
+    abbiate riconosciuto Axel!{:clear }Assomiglia così tanto ad Ansem...
+
+    Non credevo ai miei occhi quando
+
+    l'ho visto la prima volta...
+  sp: >-
+    Es asombroso que Xion y tú
+
+    hayáis reconocido a Axel.{:clear }Es idéntico a Ansem. La primera
+
+    vez que le vi, no podía creerlo.
+- id: 19149
+  en: >-
+    We met up with the King and Xion, and
+
+    now Axel is with us! We´re unbeatable!{:clear }After all, Axel was chosen by the
+
+    Keyblade, too.
+  fr: >-
+    On a retrouvé le Roi et Xion, et maintenant
+
+    que Axel est avec nous, on est invincibles !{:clear }Après tout, Axel aussi est
+
+    un élu de la Keyblade !
+  gr: >-
+    Wir haben den König und Xion getroffen, und
+
+    Axel ist jetzt auch dabei! Wir sind unschlagbar!{:clear }Axel wurde immerhin auch vom
+
+    Schlüsselschwert auserwählt.
+  it: >-
+    Ci siamo ricongiunti con il Re e Xion e
+
+    ora anche con Axel. Siamo imbattibili!{:clear }E poi, anche Axel è
+
+    stato scelto dal Keyblade!
+  sp: >-
+    ¡Nos reunimos con el rey y Xion!
+
+    ¡Y ahora con Axel! ¡Somos invencibles!{:clear }Después de todo, Axel también
+
+    fue elegido por la llave espada.
